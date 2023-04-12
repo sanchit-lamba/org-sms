@@ -1,7 +1,7 @@
 from twilio.rest import Client
  
 # replace PATH_TO_CURRENT_DIRECTORY with the current direcotry where the exported emacs agenda is stored
-with open('PATH_TO_CURRENT_DIRECTORY', 'r') as f:
+with open('PATH_TO_CURRENT_DIRECTORY/org-agenda.txt', 'r') as f:
     agenda = f.read()
 
 # Your Account SID from twilio.com/console
