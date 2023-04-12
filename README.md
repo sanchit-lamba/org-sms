@@ -5,6 +5,7 @@ This project attempts to create a simple and easy way to export org-agenda and s
 # Requirements
 * Bash shell
 * Python
+* twilio python module
 * emacs and org mode
 # Usage
 1. Replace the required values in [twilio-api.py](twilio-api.py) with the auth token and the number you intend to send messages to
