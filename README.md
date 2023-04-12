@@ -8,7 +8,7 @@ This project attempts to create a simple and easy way to export org-agenda and s
 * twilio python module
 * emacs and org mode
 # Usage
-1. Replace the required values in [twilio-api.py](twilio-api.py) with the auth token and the number you intend to send messages to
+1. Replace the required values in [twilio-api.py](twilio-api.py) and  [test.el](test.el)  
 2. Run [bash.sh](bash.sh) it will export the agenda to a new file and trigger all other python scripts 
 
 It's recommended to set up a cron job to run [bash.sh](bash.sh) at a specific time so that you can run this script at a specific time of the day to get consistant updates
